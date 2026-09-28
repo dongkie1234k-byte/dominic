@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Google Fonts for clean typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f8fafc;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: #1e293b;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #f8fafc;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .project-card {
+            background: #0f172a;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border: 1px solid #334155;
+        }
+
+        .project-card h3 {
+            color: #38bdf8;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dominic Emerson A. Plaza</h1>
+        <p>Computer Science</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a Computer science who passionate build and innovated some sort things.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A brief description of my first project. Creating Artificial intellegents to develop and create for the future environment</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A brief description of my second project. Highlighting my critical thinking and innovation skills or problem solving, design choices.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>Want to work together or just say hi? Feel free to reach out via email!</p>
+            <a href="dongkie1234k@gmail.com" class="btn">Send Me an Email</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dominic. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
